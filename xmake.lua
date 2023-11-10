@@ -1,8 +1,8 @@
 -- add_rules("mode.debug", "mode.release")
 
 target("lib-mini-gmp")
-    -- set_kind("static")
-    set_kind("shared")
+    set_kind("static")
+    -- set_kind("shared")
     add_files("src/lib/*.c")
 
 target("mini-gmp")
